@@ -1,0 +1,9 @@
+#
+#Sat Dec 23 02:14:06 CST 2023
+com.nativ.jsonapi.repository.ProjectRepository=org.springframework.stereotype.Component
+com.nativ.jsonapi.CrnkApiServiceApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+com.nativ.jsonapi.repository.TaskData=org.springframework.stereotype.Component
+com.nativ.jsonapi.repository.ProjectData=org.springframework.stereotype.Component
+com.nativ.jsonapi.repository.TaskRepository=org.springframework.stereotype.Component
+com.nativ.jsonapi.controller.ApiController=org.springframework.stereotype.Component
+JsonApiRequestProcessorBase

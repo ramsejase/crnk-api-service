@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  # servlet.context-path: /
+
+crnk:
+  enabled: true
+  domain-name: http://localhost:8080
+  path-prefix: /api
+  default-page-limit: 20
+  max-page-limit: 1000
+  allow-unknown-attributes: false
+  return404-on-null: true
+
+logging:
+  level:
+    root: warn
+    io.crnk: debug
+    io.crnk.core: debug
+    io.crnk.core.engine: debug
+    io.crnk.core.engine.http: debug
+    io.crnk.core.engine.internal.jackson: debug
+    io.crnk.servlet.internal: debug
+    # org.springframework.core.codec: debug
+    # org.springframework.http: debug
+    # org.springframework.web: debug
+    # org.springframework.boot.actuate.endpoint.web: debug
+    # org.springframework.boot.web.servlet.ServletContextInitializerBeans: debug
